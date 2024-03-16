@@ -1,0 +1,75 @@
+
+
+.header{
+    direction: rtl;
+}
+
+.header::before{
+    /* background-image: linear-gradient(to left, rgba(18, 18, 18, 0.7),rgba(18, 18, 18, 0.3)) !important;  */
+}
+/* .content{
+    right: 0;
+} */
+/* ======================= */
+
+.head div::after{
+ 
+    right: 0;
+
+}
+/* ===========[ WE ] ================= */
+.we{
+    direction: rtl;
+}
+
+.we-are i{
+    color: var(--main_color);
+    transform: rotate(180deg);
+}
+/* ================= [ Location ] ============== */
+
+/* ==================[ Footer]  =========*/
+
+.foot,.footer,.header-more,.my-sewper .row,.location,.my-sewper,.from-serve{
+    direction: rtl;
+}
+
+.slider .carousel article{
+    right: 70px;
+}
+
+/* ======== PAGE 2 */
+
+.s::after{
+
+    right: 0;
+ 
+}
+.s .my-btns{
+    right: 0;
+}
+.all .col-lg-6 img{
+    margin-left: 8px;
+}
+.s .my-btns .swiper-button-next{
+    right: 50px;
+}
+.s .my-btns .swiper-button-prev{
+    right: 0px;
+}
+.icon{
+    right: 20px;
+}
+.img::before{
+    right: -50px;
+}
+
+@media screen and (max-width:1000px){
+    .slider .carousel article{
+        right: 10px;
+    }
+    .slider .carousel .carousel-item span{
+        margin-left:8px ;
+        margin-right: 0;
+    }
+}

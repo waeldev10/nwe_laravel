@@ -1,0 +1,384 @@
+@media screen and (max-width:1000px){
+
+    .navbar{
+        padding: 0;
+    }
+    .navbar img{
+        width: 60px;
+        height: 60px;
+    }
+    .navbar .navbar-nav li{ 
+        margin: 3px 10px;
+        font-size: 18px;
+        
+    }
+    .navbar ,.navbar-nav li a{
+    color: var(--main_color) !important;
+    }
+    .navbar .navbar-nav .en{
+        /* border: 1px solid #ffffff;
+        color: #ffffff;
+        border-radius: 4px;
+        padding: 1px 10px; */
+    }
+    .navbar .navbar-nav .en{
+        height: 45px;
+        width: 100%;
+    }
+    .navbar .call{
+        display: none;
+    }
+    .navbar .navbar-nav{
+        position: fixed;
+        height: 100vh;
+        top: 75px;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
+        padding: 16px;
+        text-align: center;
+        width: 95%;
+        min-height: 50px;
+        margin: 20px auto !important;
+        margin-top:8px ;
+        position: fixed;
+        border-radius: 8px;
+        background-color: #ffffff;
+    }
+    .navbar .navbar-nav a{
+        display: block;
+        margin: 16px 0;
+    }
+    .nav-phone{
+        text-align: center;
+        margin: 24px 0;
+        display: inline-flex !important;
+        justify-content: center;
+        align-items: center;
+        color: var(--main_color);
+    }
+    .nav-phone a i{
+        /* display: inline-flex !important; */
+        margin: 0 16px ;
+        font-size: 24px;
+        color: var(--main_color) !important;
+    }
+    /* ===================[ Header ]========================== */
+    .header{
+        height: 450px;
+    }
+    .containe{
+        width: 100%;
+    }
+    
+    .content h1{
+       font-size: 20px;
+       margin: 16px 0 !important;
+    }
+    .content h2{
+        font-size: 18px;
+        margin: 16px 0 !important;
+    }
+    .content p{
+        margin: 8px !important;
+        font-size: 14px !important;
+    }
+    .content p:nth-child(2){
+        margin-bottom: 16px !important;
+    }
+    .content a{
+        width: 120px;
+        height: 45px;
+        font-size: 16px;
+        margin-top: 16px !important;
+    }
+    /* ================================================= */
+    .head{ 
+        margin-bottom: 16px;
+        width: 95%;
+    }
+    .head h2{
+        font-size: 20px;
+    }
+    .head span{
+        top: -15px;
+        font-size: 32px;
+    }
+    .head p{
+        font-size: 12px;
+    }
+    /* =============== [ WE ] =============== */
+    .we{
+        padding: 24px 0;
+    }
+    .we .patern{
+        width: 200px;
+        height: 200px;
+    }
+    .we-are{
+        /* border-bottom: 2px solid rgb(200, 109, 2,.2); */
+    }
+    .we-are h2{
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    .we-are p{
+        font-size: 14px;
+        margin:8px 0;
+    }
+    .collapse p{
+        font-size: 14px !important;
+    }
+    .we .drop{
+        width: 16px;
+        height: 16px;
+    }
+    .we .drop[aria-expanded="false"]{
+        transform: rotate(90deg);
+    }
+    .we .drop[aria-expanded="true"]{
+        transform: rotate(90deg);
+    }
+    .we .col-lg-6 .play{
+        width: 45px;
+        height: 45px;
+    }
+    .we .tv{
+        width: 100%;
+        height: 250px;
+    }
+    /* =======================[Location]============== */
+    .location{
+        padding: 24px 0;   
+    }
+    .location .map{
+        margin: 16px 0;
+        height: 300px;
+    }
+    .location .patern{
+        width: 200px;
+        height: 200px;
+    }
+    /* ======================[ Footer ] =============== */
+    footer{
+        padding: 24px 0 24px;
+    }
+    footer .patern{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .copy-nav{
+        margin: 16px 0;
+        flex-direction: column;
+    }
+    .copy-nav{
+        border-bottom: none;
+    }
+    .copy-nav nav a{
+        font-size: 14px;
+        margin: 8px 8px;
+        display: block;
+        text-align: center;
+    }
+    .foot h3{
+        color: var(--main_color);
+        font-size: 16px;
+        margin: 16px 0;
+    }
+    .foot h6{
+
+        font-size: 16px;
+        margin: 16px 0 ;
+    }
+    .foot p{
+        font-size: 14px;
+        margin: 16px 0 ;
+    }
+    .footer{
+        margin: 16px 0;
+    }
+    .footer ul{
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .footer ul li{
+        font-size: 16px !important;
+    }
+    .footer h5{
+        font-size: 18 !important;
+    }
+    .footer nav{
+        margin: 16px 0;
+    }
+    .footer nav a,.email .a{
+        width: 36px;
+        height: 36px;
+        font-size: 16px;
+    
+    }
+    .email .span span{
+        display: block;
+        margin: 5px 10px;
+        color: #ffffff;
+    }
+    
+    /* =========================[Head-serv]=================== */
+    .header-more{
+        margin-top: 100px !important;
+        padding-bottom: 30px;
+    }
+    .header-more .patern{
+        width: 200px;
+        height: 200px
+    }
+    .slider{
+        margin: 24px 0;
+    }
+    .slider .carousel{
+        height: 300px;
+    }
+    .slider .carousel .carousel-item img{
+        height: 300px;
+        object-fit: cover;
+    }
+    .slider .carousel .carousel-item h2{
+        font-size: 24px;
+    }
+    .slider .carousel .carousel-item p{
+        font-size: 18px;
+    }
+    .slider .carousel .carousel-item p:nth-child(2){
+        margin-bottom: 16px;
+    }
+    .slider .carousel .carousel-item span{
+        font-size: 14px;
+    }
+    .slider .carousel article{
+        left: 10px;
+    }
+    .slider .carousel .carousel-control-prev{
+        left: 35%;
+        top: 110% !important;
+    }
+    .slider .carousel .carousel-control-next{
+        right: 35%;
+        top: 110% !important;
+    }
+    .slider .carousel .carousel-control-next img, .slider .carousel .carousel-control-prev img{
+        width: 36px !important;
+        height: 36px !important;
+    }
+    .slider{
+        margin-top: 100px !important;
+    }
+    /* =======================[ sweper]========================== */
+    .my-sewper{
+        padding: 24px 0;
+    }
+    .mySwipers{
+        height: 300px;
+    }
+    .my-sewper .row{
+        margin: 40px 0 0;
+    }
+
+    .s{
+        padding: 16px;
+        padding-top: 30px;
+    }
+    .cont h2{
+        font-size: 18px;
+        margin: 16px 0;
+    }
+    .cont p{
+        font-size: 16px;
+        margin: 16px 0;
+    }
+    .cont span{
+        font-size: 14px;
+        margin: 16px 8px 16px 0;
+    }
+    .icon{
+        top: -30px;
+        width: 55px;
+        height: 55px;
+    }
+    .s::after{
+        width: 100%;
+    }
+    .img{
+        margin: 8px 0;
+        width: 100% !important;
+        height: 300px;
+    }
+    .div{
+        margin: 24px 0;
+        height: 300px;
+    }
+    .div div{
+        right: -10px;
+        top: -10px;
+    }
+    /* ================[ from server]=============== */
+    .from-serve{
+        padding: 24px 0;
+    }
+    .cont-serve{
+        margin-top: 24px;
+    }
+    .cont-serve .moor{
+        width: 100px;
+    }
+    .cont-serve .moor span{
+        font-size: 14px;
+    }
+    .cont-serve .col-lg-4{
+        width: 95%;
+        padding:24px ;
+        margin: 8px auto;
+    }
+    
+    .cont-serve .col-lg-4 h3{
+        margin: 16px;
+        font-size: 20px;
+    }
+    .cont-serve .col-lg-4 p{
+        width: 95%;
+        margin: 8px auto;
+    }
+    .cont-serve svg{
+        margin: 16px 0;
+        width: 20px;
+        height: 20px;
+    }
+    .cont-serve .iconh{
+        width: 60px;
+        height: 60px;
+        margin: 16px auto;
+    }
+    .cont-serve .iconh svg{
+        width: 36px;
+        height: 36px;
+    }
+    /* =========================[ Pade 3]======================= */
+    .all{
+        margin: 24px 0;
+        
+    }
+    .all .col-lg-6 {
+        width:98%;
+        margin: 8px auto;
+        padding: 8px;
+        padding-top: 0;
+        height: auto;
+        flex-direction: column;
+    }
+    .all .col-lg-6 img{
+        border-radius: 10px;
+        margin: 8px 0;
+        width: 100%;
+        height: 200px;
+    }
+
+}
